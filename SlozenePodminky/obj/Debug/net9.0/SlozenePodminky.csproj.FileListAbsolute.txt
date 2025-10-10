@@ -1,0 +1,14 @@
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/bin/Debug/net9.0/SlozenePodminky
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/bin/Debug/net9.0/SlozenePodminky.deps.json
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/bin/Debug/net9.0/SlozenePodminky.runtimeconfig.json
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/bin/Debug/net9.0/SlozenePodminky.dll
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/bin/Debug/net9.0/SlozenePodminky.pdb
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/obj/Debug/net9.0/SlozenePodminky.GeneratedMSBuildEditorConfig.editorconfig
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/obj/Debug/net9.0/SlozenePodminky.AssemblyInfoInputs.cache
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/obj/Debug/net9.0/SlozenePodminky.AssemblyInfo.cs
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/obj/Debug/net9.0/SlozenePodminky.csproj.CoreCompileInputs.cache
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/obj/Debug/net9.0/SlozenePodminky.dll
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/obj/Debug/net9.0/refint/SlozenePodminky.dll
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/obj/Debug/net9.0/SlozenePodminky.pdb
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/obj/Debug/net9.0/SlozenePodminky.genruntimeconfig.cache
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/obj/Debug/net9.0/ref/SlozenePodminky.dll
