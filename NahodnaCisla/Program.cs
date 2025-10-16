@@ -1,4 +1,4 @@
-Random rnd = new Random();
+﻿Random rnd = new Random();
 /*
 {
     int cislo = rnd.Next(1, 101);
