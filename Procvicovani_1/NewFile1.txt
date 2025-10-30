@@ -1,0 +1,25 @@
+// 1)
+// Vygeneruj 5 nahodných čísel (-10, 20) a vypiš je
+// pro těchto 5 čísel poté vypiš
+//      součet
+//      průměr
+//      maximum
+//      minimum
+
+// 2) 
+// Vygeneruj 10 nahodných čísel (-273.15, 100)
+// vygenerovaná hodnota je ve °C
+// převeď hodnoty na °F a vypiš je
+// převeď hodnoty na K a vypiš je
+
+
+// 3) 
+// generuj 2 náhodná čísla (-30, 30)
+// pokud součet čísel bude nula, ukonči smyču
+// vypiš počet opakování který byl proveden
+
+// 4)
+// generuj 4 náhodná čísla (-30, 30)
+// pokud součet čísel bude nula, ukonči smyču
+// vypiš počet opakování který byl proveden
+

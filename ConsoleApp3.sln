@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NahodnaCisla", "NahodnaCisl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UvodCykly", "UvodCykly\UvodCykly.csproj", "{7B716ADD-5718-4BA9-B16E-94BA725E7533}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procvicovani_1", "Procvicovani_1\Procvicovani_1.csproj", "{2EE0C683-8119-47AF-B8B7-B1E562B993E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pole", "Pole\Pole.csproj", "{48A2C7AB-B004-4030-8985-04A0CECFD7B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{7B716ADD-5718-4BA9-B16E-94BA725E7533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B716ADD-5718-4BA9-B16E-94BA725E7533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B716ADD-5718-4BA9-B16E-94BA725E7533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE0C683-8119-47AF-B8B7-B1E562B993E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE0C683-8119-47AF-B8B7-B1E562B993E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE0C683-8119-47AF-B8B7-B1E562B993E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE0C683-8119-47AF-B8B7-B1E562B993E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A2C7AB-B004-4030-8985-04A0CECFD7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A2C7AB-B004-4030-8985-04A0CECFD7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A2C7AB-B004-4030-8985-04A0CECFD7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A2C7AB-B004-4030-8985-04A0CECFD7B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
