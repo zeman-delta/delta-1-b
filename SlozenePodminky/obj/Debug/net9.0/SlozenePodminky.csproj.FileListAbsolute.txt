@@ -12,3 +12,4 @@
 /Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/obj/Debug/net9.0/SlozenePodminky.pdb
 /Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/obj/Debug/net9.0/SlozenePodminky.genruntimeconfig.cache
 /Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/obj/Debug/net9.0/ref/SlozenePodminky.dll
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/SlozenePodminky/obj/Debug/net9.0/SlozenePodminky.sourcelink.json

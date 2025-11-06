@@ -12,3 +12,4 @@
 /Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/ConsoleApp3/obj/Debug/net9.0/ConsoleApp3.pdb
 /Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/ConsoleApp3/obj/Debug/net9.0/ConsoleApp3.genruntimeconfig.cache
 /Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/ConsoleApp3/obj/Debug/net9.0/ref/ConsoleApp3.dll
+/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/ConsoleApp3/obj/Debug/net9.0/ConsoleApp3.sourcelink.json
