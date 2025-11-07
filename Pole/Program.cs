@@ -261,26 +261,106 @@ for (int i = 0; i < test.Length - 1; i++)
 }
 Console.WriteLine(jeSerazeno);
 
+Console.WriteLine("----------------");
 
 // -------------------------------------------------------
 // 6️⃣ Vypiš čísla na sudých indexech
 // Pole: { 10, 20, 30, 40, 50, 60 }
 // Indexy: 0,2,4 → 10, 30, 50
 
+int[] pole6 = new int[10];
+for (int i = 0; i < pole6.Length; i++)
+{
+    pole6[i] = rnd.Next(-10, 11);
+    Console.Write($"{pole6[i]}, "); // pole1[i] + ", "
+}
+
+Console.WriteLine();
+
+for (int i = 0; i < pole6.Length; i += 2)
+{
+    Console.Write($"{pole6[i]}, "); // pole1[i] + ", "
+}
+
+Console.WriteLine();
+
+Console.WriteLine("----------------");
+
 // 7️⃣ Najdi součet všech lichých čísel
 // Pole: { 5, 2, 9, 1, 8 } → 5 + 9 + 1 = 15
+
+int[] pole7 = new int[10];
+int soucetLichych = 0;
+
+for (int i = 0; i < pole7.Length; i++)
+{
+    pole7[i] = rnd.Next(-10, 11);
+    Console.Write(pole7[i] + ", ");
+}
+
+Console.WriteLine();
+
+for (int i = 0; i < pole7.Length; i++)
+{
+    int jeLiche = pole7[i] % 2;
+    if (jeLiche == 1 || jeLiche == -1) // jeLiche != 0
+    {
+        soucetLichych += pole7[i]; // soucetLichych = soucetLichych + pole7[i]
+    }
+}
+
+Console.WriteLine(soucetLichych);
+
+Console.WriteLine("----------------");
 
 // 8️⃣ Vyměň první a poslední prvek pole
 // Pole před: { 1, 2, 3, 4 }
 // Pole po: { 4, 2, 3, 1 }
+
+int[] pole8 = { 1, 2, 3, 4 };
+
+int pomocna = pole8[0];
+
+pole8[0] = pole8[pole8.Length - 1];
+pole8[pole8.Length - 1] = pomocna;
+
+for (int i = 0; i < pole8.Length; i++)
+{
+    Console.Write(pole8[i] + ", ");
+}
+
+pomocna = pole8[0];
+pole8[0] = pole8[1];
+pole8[1] = pomocna;
+
+for (int i = 0; i < pole8.Length; i++)
+{
+    Console.Write(pole8[i] + ", ");
+}
 
 // 9️⃣ Najdi počet výskytů zadaného čísla v poli
 // Pole: { 4, 2, 4, 7, 4 }
 // Uživatel zadá: 4
 // Výstup: 3×
 
+int[] pole9 = new int[10];
 
+for (int i = 0; i < pole9.Length; i++)
+{
+    pole9[i] = rnd.Next(-10, 11);
+}
 
+int hledaneCislo = Convert.ToInt32(Console.ReadLine());
+int pocetVyskytu = 0;
 
+for(int i = 0; i < pole9.Length; i++)
+{
+    if (pole9[i] == hledaneCislo)
+    {
+        pocetVyskytu++;
+    }
+}
+
+Console.WriteLine(pocetVyskytu);
 
 
