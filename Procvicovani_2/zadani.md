@@ -20,5 +20,8 @@ Je zadán libovolný text.
 2. vypiš prvních 5 znaků
 3. vypiš posledních 5 znaků
 4. zeptej se na libovolný znak a poté vypiš kolikrát se v textu nachází.
-    * zkus napsat bod 4 tak, aby pokračoval dokud nezadím 'Q'
+    * zkus napsat bod 4 tak, aby pokračoval dokud nezadám 'Q'
+    * zkus vypsat četnost všech znaků v textu
+    * zkus udělat, aby mohl být text na více řádků  
+
 
