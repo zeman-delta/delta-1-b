@@ -24,4 +24,16 @@ Je zadán libovolný text.
     * zkus vypsat četnost všech znaků v textu
     * zkus udělat, aby mohl být text na více řádků  
 
+## Třetí úloha
+dvě pole o 10 prvcích  
+první pole obsahuje rotlohu pozemku  
+{376, 876, 1655, 515}  
+druhé pole jeho cenu  
+{10m, 5,7m, 19,5m, 7,5m}  
+- spočítejte průměrnou hodnotu ceny a vypiš ji
+- spočítej průměrnou rozlohu a vypiš ji
+- spočítejte průměrnou cenu za m2 a vypiš ji
+- spočítejte cenu za ar  
+- Spočítat medián ceny  
 
+## 
