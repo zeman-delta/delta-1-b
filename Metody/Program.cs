@@ -6,27 +6,13 @@ class Program
     public static void Main( string[] args )
     {
         int[] pole = VytvorPole();
-        
-        VypisPole(pole);
-        
-        for (int i = pole.Length -1; i >= 0; i--)
-        {
-            Console.Write(pole[i] + ", ");
-        }
+        uloha1(pole);
         
         Console.WriteLine("----------------");
 
         int[] pole2 = VytvorPole();
-        VypisPole(pole2);
+        int pocetSudych = uloha2(pole2);
         
-        int pocetSudych = 0;
-        for (int i = 0; i < pole2.Length; i++)
-        {
-            if (pole2[i] % 2 == 0)
-            {
-                pocetSudych++;
-            }
-        }
         Console.WriteLine(pocetSudych);
         
         Console.WriteLine("----------------");
@@ -60,7 +46,36 @@ class Program
             pole[i] = rnd.Next(min, max + 1);
         }
         
+        VypisPole(pole);
+        
         return pole;
+    }
+    
+    
+    public static void uloha1(int[] pole)
+    {
+        // vypiš pole pozpátku
+        
+        for (int i = pole.Length -1; i >= 0; i--)
+        {
+            Console.Write(pole[i] + ", ");
+        }
+    }
+    
+    
+    public static int uloha2(int[] pole)
+    {
+        int pocetSudych = 0;
+        
+        for (int i = 0; i < pole.Length; i++)
+        {
+            if (pole[i] % 2 == 0)
+            {
+                pocetSudych++;
+            }
+        }
+
+        return pocetSudych;
     }
 
 }
