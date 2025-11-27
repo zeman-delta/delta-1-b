@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "266z587hm8c=",
+  "dgSpecHash": "9yDRuLKE+3o=",
   "success": true,
   "projectFilePath": "/Users/martinzeman/Documents/Skola/Alda/ConsoleApp3/Switch/Switch.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/martinzeman/.nuget/packages/microsoft.netcore.app.ref/9.0.11/microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "/Users/martinzeman/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.11/microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
+    "/Users/martinzeman/.nuget/packages/microsoft.netcore.app.host.osx-arm64/9.0.11/microsoft.netcore.app.host.osx-arm64.9.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
