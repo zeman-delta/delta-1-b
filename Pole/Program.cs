@@ -71,8 +71,6 @@
 //
 // Console.WriteLine($"Minimum: {min}, Maximum {max}, Průměr: {prumer}");
 
-using System.Globalization;
-
 Random rnd = new Random();
 
 // Pro následující úlohy si vždy na začátek vyzkoušíme úlohu s polem
