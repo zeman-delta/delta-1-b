@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procvicovani_2", "Procvicov
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metody", "Metody\Metody.csproj", "{26E3B6D6-A8EE-4311-AD59-DCBBF96CAC14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metody2", "Metody2\Metody2.csproj", "{94E8E97F-BD64-497B-A69C-455D51937646}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{26E3B6D6-A8EE-4311-AD59-DCBBF96CAC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26E3B6D6-A8EE-4311-AD59-DCBBF96CAC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26E3B6D6-A8EE-4311-AD59-DCBBF96CAC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E8E97F-BD64-497B-A69C-455D51937646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E8E97F-BD64-497B-A69C-455D51937646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E8E97F-BD64-497B-A69C-455D51937646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E8E97F-BD64-497B-A69C-455D51937646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
