@@ -1,9 +1,19 @@
-﻿namespace Metody2;
+﻿
+namespace Metody2;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        OpakujZpravu("zprava Ahoj", 10);
+    }
+
+
+    public static void OpakujZpravu(string zprava, int pocet)
+    {
+        for (int i = 0; i < pocet; i++)
+        {
+            Console.WriteLine(zprava);
+        }
     }
 }
