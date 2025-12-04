@@ -16,4 +16,12 @@ class Program
             Console.WriteLine(zprava);
         }
     }
+
+
+    public static void VypisVek(int rokNarozeni)
+    {
+        int vek = 2025 - rokNarozeni;
+        Console.WriteLine($"Je ti přibližně {vek} let.");
+    }
+    
 }
