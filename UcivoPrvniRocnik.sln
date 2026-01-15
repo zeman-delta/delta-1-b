@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metody", "Metody\Metody.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metody2", "Metody2\Metody2.csproj", "{94E8E97F-BD64-497B-A69C-455D51937646}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tridy", "Tridy\Tridy.csproj", "{6ED51F73-71D3-45D7-A399-F01A90BB267E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplikaceKnihovna", "AplikaceKnihovna\AplikaceKnihovna.csproj", "{D98B85D7-1D00-4258-9151-10305343452A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +76,13 @@ Global
 		{94E8E97F-BD64-497B-A69C-455D51937646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94E8E97F-BD64-497B-A69C-455D51937646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94E8E97F-BD64-497B-A69C-455D51937646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED51F73-71D3-45D7-A399-F01A90BB267E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED51F73-71D3-45D7-A399-F01A90BB267E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED51F73-71D3-45D7-A399-F01A90BB267E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED51F73-71D3-45D7-A399-F01A90BB267E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98B85D7-1D00-4258-9151-10305343452A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98B85D7-1D00-4258-9151-10305343452A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98B85D7-1D00-4258-9151-10305343452A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98B85D7-1D00-4258-9151-10305343452A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
