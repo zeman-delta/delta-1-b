@@ -61,4 +61,6 @@ V metodě `Main` otestuj funkčnost svého kódu.
 Pokud máš hotovo a vše funguje, zkus přidat do třídy `Knihovna`:
 
 * **Metoda `NajdiKnihu(string nazev)`:** Projde uložené knihy a pokud najde shodu názvu, vypíše detaily. Pokud ne, vypíše "Nenalezeno".
-* **Metoda `SmazatKnihovnu()`:** Vymaže všechny knihy z knihovny. 
+* **Metoda `SmazatKnihovnu()`:** Vymaže všechny knihy z knihovny.
+* **Metoda `SmazatKnihu(int index)`:** Projde uložené knihy a pokud najde shodu indexu, vymaže danou knihu. Pokud ne, vypíše "Nenalezeno".
+* **Metoda `SmazatKnihu(string nazev)`:** Projde uložené knihy a pokud najde shodu názvu, vymaže danou knihu. Pokud ne, vypíše "Nenalezeno".
