@@ -11,19 +11,25 @@ Tato třída reprezentuje jeden účet.
     * *Důvod:* Jméno můžeme číst i měnit bez omezení.
   - `_zustatek` (desetinné číslo - decimal): **private**.
     * *Důvod:* Zde je nutná logika (nesmí jít do mínusu bez kontroly), proto musí být skrytý.
+  - `_pin` (celé číslo - int): **private**.
+    * *Důvod:* Toto číslo musí být skrytý, protože je důležité pro bezpečnost.
+
 - [ ] **Konstruktor:**
-  - Přijímá 2 parametry (`cisloUctu`, `vlastnik`).
+  - Přijímá 2 parametry (`cisloUctu`, `vlastnik`, `pin`).
   - Uloží je přímo do veřejných proměnných `CisloUctu` a `Vlastnik`.
   - `_zustatek` nastaví na 0.
+  - `_pin` nastaví na `pin`.
 - [ ] **Metoda `Vlozit(decimal castka)`:**
   - Pokud `castka > 0`, přičte ji k `_zustatek`.
   - Jinak vypíše chybu.
 - [ ] **Metoda `Vybrat(decimal castka)`:**
   - Pokud je `castka > 0` A ZÁROVEŇ `_zustatek >= castka`, odečte peníze.
   - Jinak vypíše chybu.
-- [ ] **Metoda `GetZustatek()`:**
+- [ ] **Metoda `GetZustatek(int pin)`:**
   - Protože je `_zustatek` private, nemůžeš ho zvenčí (z Program.cs nebo z Banky) přečíst.
   - Vytvoř metodu `public decimal GetZustatek()`, která jen vrátí hodnotu `_zustatek`.
+  - pokud je `pin` shodný s `_pin`, vrátí `_zustatek`.
+  - Jinak vypíše chybu.
 - [ ] **Metoda `VypisInfo()`:**
   - Vypíše všechna data do konzole.
 
