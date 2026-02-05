@@ -15,7 +15,7 @@ Tato třída reprezentuje jeden účet.
     * *Důvod:* Toto číslo musí být skrytý, protože je důležité pro bezpečnost.
 
 - [ ] **Konstruktor:**
-  - Přijímá 2 parametry (`cisloUctu`, `vlastnik`, `pin`).
+  - Přijímá 3 parametry (`cisloUctu`, `vlastnik`, `pin`).
   - Uloží je přímo do veřejných proměnných `CisloUctu` a `Vlastnik`.
   - `_zustatek` nastaví na 0.
   - `_pin` nastaví na `pin`.
