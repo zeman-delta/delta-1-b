@@ -77,6 +77,36 @@ Třída, která spravuje pole účtů.
   - Procházíš pole účtů.
   - Porovnáváš hledaný string s `_seznamUctu[i].CisloUctu` (zde přistupuješ k public fieldu uvnitř objektu v poli).
   - Vrátí nalezený účet nebo `null`.
+
 * **Metoda `Prevod(...)`:**
   - Stejný princip. Najdeš dva účty.
   - Z jednoho zavoláš `.Vybrat()`, na druhém `.Vlozit()`.
+
+* **Metoda `NajdiNejbohatsiho()` (Třída Banka):**
+  - zeptej se jak přetížit metodu get zustatek.
+  - Projde všechny účty v bance.
+  - Najde ten, který má nejvyšší zůstatek (budeš si muset pamatovat `pomocnyUcet` a `maxZustatek`).
+  - Na konci vypíše jméno vlastníka a kolik má peněz.
+
+* **Metoda `SmazatUcet(string cisloUctu)` (Třída Banka):**
+  - *Toto je těžká úloha na procvičení logiky polí.*
+  - Najde index účtu, který chceme smazat.
+  - Pokud ho najde, musíš "zalepit díru" v poli. To znamená:
+    1. Všechny účty, které jsou v poli *za* smazaným účtem, musíš posunout o jedno místo doleva (na nižší index).
+    2. Snížíš `_pocetUctu`.
+    3. Poslední místo v poli (kde je teď duplikát) vyčistíš (nastavíš na `null`).
+
+* **Rozšíření: Historie transakcí (Třída BankovniUcet):**
+  - Přidej do třídy `BankovniUcet` nové soukromé pole: `private string[] _historie`.
+  - V konstruktoru ho inicializuj na velikost 5.
+  - Přidej soukromé počítadlo `private int _pocetTransakci`.
+  - Uprav metody `Vlozit` a `Vybrat`:
+    - Pokaždé, když transakce proběhne úspěšně, ulož textový záznam (např. "+500") do pole `_historie`.
+    - Jednodušší varianta: Pokud je historie plná, buď nejstarší záznam přepiš, nebo prostě další nezapisuj.
+    - Pokročilejší varianta: Pokud je historie plná, posun všechny záznamy o jedno místo doleva a vlož nový na konec.
+  - Vytvoř metodu `VypisHistorii()`, která vypíše posledních 5 akcí.
+
+* **Metoda `StrhnoutPoplatek(decimal castka)` (Třída Banka i BankovniUcet):**
+  - Nejprve přidej metodu do `BankovniUcet`: `StahnoutPoplatek(decimal kolik)`, která natvrdo odečte peníze (i do mínusu - banka si své peníze vždy vezme!).
+  - Poté přidej metodu do `Banka`: `StrhnoutPoplatekUcetnictvi(decimal kolik)`.
+  - Tato metoda v Bance projde všechny klienty a každému strhne poplatek za vedení účtu.
