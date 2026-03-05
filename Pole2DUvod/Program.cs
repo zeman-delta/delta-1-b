@@ -52,6 +52,17 @@ class Program
         {
             for (int j = 0; j < pole.GetLength(1); j++)
             {
+                if ((i + j) % 2 == 0)
+                {
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.BackgroundColor = ConsoleColor.White;
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.BackgroundColor = ConsoleColor.Black;
+                }
+                
                 Console.Write(pole[i, j] + "; ");
             }
 

@@ -65,3 +65,37 @@
 * Vytvořte třetí pole stejné velikosti, do kterého uložíte **součet** obou matic – tedy na pozici `[i, j]` bude součet hodnot `a[i, j] + b[i, j]`.
 * Výsledné pole vypište.
 * > **Nápověda:** Budete potřebovat tři sady vnořených cyklů: jednu pro naplnění prvního pole, druhou pro druhé pole a třetí pro výpočet součtu.
+
+---
+
+## 10. Pascalův trojúhelník
+* Vytvořte 2D pole `int` o velikosti 8x8 a inicializujte ho nulami.
+* Naplňte ho tak, aby první sloupec každého řádku a diagonála (pozice `[i, i]`) byly `1`. Ostatní hodnoty spočítejte ze dvou prvků nad ním.
+* Výsledek vypište – jako tabulku.
+
+---
+
+## 11. Sedlový bod
+* Vytvořte pole 4x4 a naplňte ho náhodnými čísly od 1 do 50. Pole vypište.
+* Hledejte **sedlový bod** – prvek, který je zároveň **nejmenší ve svém řádku** a **největší ve svém sloupci**.
+* Pokud takový prvek existuje, vypište jeho hodnotu a souřadnice. Pokud ne, napište, že nebyl nalezen.
+
+---
+
+## 12. Rotace matice o 90° doprava
+* Vytvořte čtvercové pole `N x N` (např. 4x4) s čísly od 1 do N². Pole vypište.
+* Vytvořte **nové** pole stejné velikosti a naplňte ho tak, aby představovalo původní pole **otočené o 90° doprava**.
+* Otočené pole vypište a porovnejte s originálem.
+
+---
+
+## 13. Spirálový výpis
+* Vytvořte pole 5x5 a naplňte ho čísly od 1 do 25 po řádcích (tedy `[0,0]=1`, `[0,1]=2`, ..., `[4,4]=25`). Pole vypište.
+* Vypište všechna čísla z pole **po spirále** – začněte v levém horním rohu, jděte doprava, pak dolů, pak doleva, pak nahoru, pak zase doprava atd., dokud nevypíšete všechny prvky.
+
+---
+
+## 14. Násobení matic
+* Vytvořte matici `A` o velikosti 2x3 a matici `B` o velikosti 3x4. Obě naplňte libovolnými čísly a vypište je.
+* Vypočítejte jejich **součin C = A × B**. Výsledná matice `C` bude mít velikost 2x4.
+* > **Připomenutí:** Prvek `C[i, j]` se spočítá jako skalární součin `i`-tého řádku matice A a `j`-tého sloupce matice B: `C[i, j] = A[i,0]*B[0,j] + A[i,1]*B[1,j] + A[i,2]*B[2,j]`.
