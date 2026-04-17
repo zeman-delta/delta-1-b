@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piskvorky", "piskvorky\pisk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pole2DUvod", "Pole2DUvod\Pole2DUvod.csproj", "{84B664AE-E7F5-4C5F-924F-4EEFBAFD32D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lode", "Lode\Lode.csproj", "{EADC9CD4-AA18-4421-874A-024D2488789E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{84B664AE-E7F5-4C5F-924F-4EEFBAFD32D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84B664AE-E7F5-4C5F-924F-4EEFBAFD32D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84B664AE-E7F5-4C5F-924F-4EEFBAFD32D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EADC9CD4-AA18-4421-874A-024D2488789E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADC9CD4-AA18-4421-874A-024D2488789E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EADC9CD4-AA18-4421-874A-024D2488789E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EADC9CD4-AA18-4421-874A-024D2488789E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
