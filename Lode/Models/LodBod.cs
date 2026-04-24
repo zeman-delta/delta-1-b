@@ -37,7 +37,7 @@ public class LodBod: Policko
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.Write('Z');
+            Console.Write('~');
         }
     }
 }

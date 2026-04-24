@@ -83,7 +83,7 @@ public class More
             {
                 if (zobrazLode && _hraciPlocha[y, x] is LodBod lodBod && !lodBod.Potopena)
                 {
-                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Magenta;
                     Console.BackgroundColor = ConsoleColor.DarkBlue;
                     Console.Write('■');
                 }
