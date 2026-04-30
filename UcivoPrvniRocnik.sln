@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lode", "Lode\Lode.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List1", "List1\List1.csproj", "{0312D64D-F8BE-49DE-A624-25BFDB58F854}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slovnik", "Slovnik\Slovnik.csproj", "{BB043AFC-095A-4E4C-A2F9-BC28C4128550}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,9 @@ Global
 		{0312D64D-F8BE-49DE-A624-25BFDB58F854}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0312D64D-F8BE-49DE-A624-25BFDB58F854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0312D64D-F8BE-49DE-A624-25BFDB58F854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB043AFC-095A-4E4C-A2F9-BC28C4128550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB043AFC-095A-4E4C-A2F9-BC28C4128550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB043AFC-095A-4E4C-A2F9-BC28C4128550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB043AFC-095A-4E4C-A2F9-BC28C4128550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
