@@ -38,6 +38,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List1", "List1\List1.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slovnik", "Slovnik\Slovnik.csproj", "{BB043AFC-095A-4E4C-A2F9-BC28C4128550}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zasobnik", "Zasobnik\Zasobnik.csproj", "{B49BC37D-356F-4AF5-BCAF-7E20855403F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpakovaniDinamickeKolekce", "OpakovaniDinamickeKolekce\OpakovaniDinamickeKolekce.csproj", "{DAD70C0F-4EC3-46DB-8A15-CC185DA3D4D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +124,13 @@ Global
 		{BB043AFC-095A-4E4C-A2F9-BC28C4128550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB043AFC-095A-4E4C-A2F9-BC28C4128550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB043AFC-095A-4E4C-A2F9-BC28C4128550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49BC37D-356F-4AF5-BCAF-7E20855403F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49BC37D-356F-4AF5-BCAF-7E20855403F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49BC37D-356F-4AF5-BCAF-7E20855403F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49BC37D-356F-4AF5-BCAF-7E20855403F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD70C0F-4EC3-46DB-8A15-CC185DA3D4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD70C0F-4EC3-46DB-8A15-CC185DA3D4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD70C0F-4EC3-46DB-8A15-CC185DA3D4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD70C0F-4EC3-46DB-8A15-CC185DA3D4D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
